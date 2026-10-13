@@ -1,0 +1,20 @@
+{
+  "name": "nuxt-storybook-e1001-repro",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@12.9.0",
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "nuxt": "4.6.1",
+    "vue": "3.5.43",
+    "vue-router": "5.4.0"
+  },
+  "devDependencies": {
+    "@storybook-vue/nuxt": "10.0.1",
+    "storybook": "10.6.1"
+  }
+}
